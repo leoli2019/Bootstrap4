@@ -1,0 +1,52 @@
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark navbar-dark">
+        <!-- <div class = "top-header">
+            <div class = "container">
+                <a href = "javascript:;" class = "login" id="loginUserLog">My NBAI Account<a>
+                <a class="hide" id="hi">Hi&nbsp;</a>
+                <a class="hide" id="userName" href="javascript:;"></a>
+                <a class="hide" id="userDash" href="javascript:;">&nbsp;Dashboard&nbsp;</a>
+                <a class="hide" id="userStatus" onclick="logout()">Sign out</a>
+                <a href = "javascript:;" class = "button lightBlue whiteText signUp" id="loginUserSign">Create an Account</a>
+            </div>
+        </div> -->
+        <div class = "bottom-header">
+            <div class = "container">
+                <div class = "logo"><a href = "url">NBAI Cloud</a></div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href = "urlfeatures.html">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="urlpricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="urlsolutions.html">Solutions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="urldocs/">Documentation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="urlcontact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link login" href = "javascript:;" id="loginUserLog">My NBAI Account<a>
+                            <a class="nav-link hide" id="hi">Hi&nbsp;</a>
+                            <a class="nav-link hide" id="userName" href="./dashboard/#/profile"></a>
+                            <a class="nav-link hide" id="userDash" href="./dashboard/#/dev/index">&nbsp;Dashboard&nbsp;</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link signUp" href = "javascript:;" id="loginUserSign">Create an Account</a>
+                            <a class="nav-link hide" id="userStatus" onclick="logout()">Sign out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" 
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+</header>
