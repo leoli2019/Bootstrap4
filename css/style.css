@@ -11,7 +11,7 @@
 
 
 /*---Media Queries --*/
-@media (max-width: 992px) {
+@media (max-width: 1920px) {
 
   }
 @media (max-width: 768px) {
@@ -21,7 +21,13 @@
   
 }
 
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
 
+}
 /*---Firefox Bug Fix --*/
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
