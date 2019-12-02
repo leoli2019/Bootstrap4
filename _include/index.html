@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="_include\css\style.css" rel="stylesheet">
+
+	<style>
+		/* Make the image fully responsive */
+		.carousel-inner img {
+			width: 100%;
+			height: 100%;
+		}
+		</style>
+
+</head>
+
+<body class="home" data-spy="scroll" data-target="#navbarResponsive">
+
+	<!--Header-->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="./">Mike</a>
+			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+				aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-lg-end" id="navbarResponsive">
+				<ul class="navbar-nav">
+	
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="javascript:;" id="server" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							Portfolio
+						</a>
+						<div class="dropdown-menu" aria-labelledby="server">
+							<a class="dropdown-item" href="./vps.html">Working Experience</a>
+							<a class="dropdown-item" href="./server.html">Education</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="enterprise" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							Project
+						</a>
+						<div class="dropdown-menu" aria-labelledby="enterprise">
+							<!-- <a class="dropdown-item" href="#">Multi-Cloud Integration</a> -->
+							<a class="dropdown-item" href="./edgecloud.html">Website</a>
+							<a class="dropdown-item" href="./publiccloud.html">QA</a>
+							<a class="dropdown-item" href="./hybridcloud.html">API</a>
+							<a class="dropdown-item" href="./devops.html">Web spider</a>
+							<a class="dropdown-item" href="./blockchain.html">Devops</a>
+							<a class="dropdown-item" href="./ai-solutions.html">Data Analysis</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="about" data-toggle="dropdown" aria-haspopup="true"
+							aria-expanded="false">
+							About
+						</a>
+						<div class="dropdown-menu" aria-labelledby="about">
+							
+							<a class="nav-link dropdown-toggle" href="#" id="hobby" data-toggle="dropdown" aria-haspopup="true"
+							   aria-expanded="false">
+							   Hobby
+						    </a>
+							<div class="dropdown-menu" aria-labelledby="hobby">
+								<a class="dropdown-item" href="./about.html">Sports</a>
+								<a class="dropdown-item" href="./about.html">Music</a>
+								<a class="dropdown-item" href="./about.html">Books</a>
+								<a class="dropdown-item" href="./about.html">Ecnomic news</a>
+								<a class="dropdown-item" href="./about.html">World News</a>
+							</div>
+							<a class="dropdown-item" href="./about.html#partner">Personality</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./contact.html">Contact</a>
+					</li>
+					<!--<li class="nav-item dropdown myaccount" id="myaccount">
+						<a class="nav-link dropdown-toggle purpleText" href="javascript:;" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							My NBAI Account
+						</a>
+						<div class="dropdown-menu" aria-labelledby="account">
+							<a class="dropdown-item login" href="javascript:;" id="loginUserLog">Log in</a>
+							<a class="dropdown-item signUp" href="javascript:;" id="loginUserSign">Create an account</a>
+						</div>
+					</li>
+					<li class="nav-item userinfo d-flex hide" id="userinfo">
+						<a class="nav-link hide" id="hi">Hi&nbsp;</a>
+						<a class="nav-link hide" id="userName" href="./dashboard/#/profile"></a>
+						<a class="nav-link hide" id="userDash" href="./dashboard/#/dev/index">&nbsp;Dashboard&nbsp;</a>
+						<a class="nav-link hide" id="userStatus" onclick="logout()">Sign out</a>
+					</li>-->
+					<!-- <li class="nav-item">
+						<a class="nav-link" href="#">Resources</a>
+					</li> -->
+					<!-- <li class="nav-item">
+						<a class="nav-link" href="#">EN</a>
+					</li> -->
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+	<!--End Header-->
+<first-section>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/background.jpg" alt="brave" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/background2.jpg" alt="fresh" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/background3.jpg" alt="ego" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</first-section>
+
+<second-section>
+		<div class="jumbotron jumbotron-fluid">
+				<div class="container">
+				  <h1>Personal Projects Demo</h1>      
+				  <p>Most projects are developed from my hobbies.</p>
+				</div>
+			  </div>
+			  
+			  <div class="container">
+				<p>Web Spider to get the news I am interested from Twitter or other Websites.</p>      
+				<p>Use AI to analysis NBA or Stock Data.</p>      
+			  </div>
+
+</second-section>
+
+
+	<!--script-->
+	<script src="_include\js\jquery-3.3.1.min.js"></script>
+	<script src="_include\js\bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+</body>
+
+</html>
