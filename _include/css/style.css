@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 body{
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: 'Lato', sans-serif;
   color: #505962;
 }
-
+  .webCrwaler{
+    background: url(../img/webScraping.png) center center/100% 100% no-repeat;
+                  padding: 1em;
+                  width:80%;
+                  margin: 0 auto;
+  }
 .navbar{
   text-transform: uppercase;
   font-weight: 700;
@@ -24,7 +29,7 @@ body{
   color: white;
   padding-top: .8rem;
 }
-.navbar-dark .navbar-nav .navbar-link,active,
+.navbar-dark .navbar-nav .navbar-link:active,
 .navbar-dark .navbar-nav .navbar-link:hover{
   color: rgb(212, 153, 24);
  
