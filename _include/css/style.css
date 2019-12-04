@@ -6,7 +6,7 @@ body{
   color: #505962;
 }
   .webCrwaler{
-    background: url(../img/webScraping.png) center center/100% 100% no-repeat;
+    background: url(/_include/img/webScraping.png) center center/100% 100% no-repeat;
                   padding: 1em;
                   width:80%;
                   margin: 0 auto;
