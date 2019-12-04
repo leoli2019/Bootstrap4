@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
 body{
-  /* overflow: hidden; */
+  overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   color: #505962;
 }
@@ -66,7 +66,9 @@ body{
   
 }
 
-
+.slide{
+  width:fit-content;
+}
 /*---Firefox Bug Fix --*/
 .carousel-item {
   transition: -webkit-transform 0.5s ease;
