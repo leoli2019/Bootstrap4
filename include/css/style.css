@@ -211,10 +211,11 @@ body {
     text-transform: uppercase;
     margin: 1rem;
   }
+
 /* end */
 
 
-
+/* 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
@@ -3486,7 +3487,7 @@ input[type="button"].btn-block {
     .custom-control-label::before,
     .custom-file-label,
     .custom-select {
-      transition: none; } }
+      transition: none; } } */
 
 /* .nav {
   display: flex;
@@ -3913,7 +3914,7 @@ input[type="button"].btn-block {
     color: #fff; }
     .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
       color: #fff; } */
-
+/* 
 .card {
   position: relative;
   display: flex;
@@ -11074,419 +11075,32 @@ body {
             left: 0;
             right: 0;
             bottom: 0;
-            background-color: #ccc;
-            -webkit-transition: .4s;
-            transition: .4s; }
-            body.pricing .third-section .container .row .form .row.head .switch .slider:before, body.pricing .fourth-section .container .row .form .row.head .switch .slider:before, body.pricing .fifth-section .container .row .form .row.head .switch .slider:before {
-              position: absolute;
-              content: "";
-              height: 12px;
-              width: 12px;
-              left: 0px;
-              bottom: 0px;
-              background-color: #0041c4;
-              -webkit-transition: .4s;
-              transition: .4s; }
-            body.pricing .third-section .container .row .form .row.head .switch .slider.round, body.pricing .fourth-section .container .row .form .row.head .switch .slider.round, body.pricing .fifth-section .container .row .form .row.head .switch .slider.round {
-              border-radius: 12px; }
-              body.pricing .third-section .container .row .form .row.head .switch .slider.round::before, body.pricing .fourth-section .container .row .form .row.head .switch .slider.round::before, body.pricing .fifth-section .container .row .form .row.head .switch .slider.round::before {
-                border-radius: 50%; }
-      body.pricing .third-section .container .row .form .row.body, body.pricing .fourth-section .container .row .form .row.body, body.pricing .fifth-section .container .row .form .row.body {
-        background: #f9f9f9;
-        border-bottom: 1px solid #eee; }
-  body.pricing .third-section .container .row .calculator, body.pricing .fourth-section .container .row .calculator, body.pricing .fifth-section .container .row .calculator {
-    font-size: 1.2rem;
-    margin-bottom: 2rem; }
-    @media (max-width: 1024px) {
-      body.pricing .third-section .container .row .calculator, body.pricing .fourth-section .container .row .calculator, body.pricing .fifth-section .container .row .calculator {
-        font-size: 1rem; } }
-    @media (min-width: 981px) {
-      body.pricing .third-section .container .row .calculator, body.pricing .fourth-section .container .row .calculator, body.pricing .fifth-section .container .row .calculator {
-        padding-left: 2rem; } }
-    body.pricing .third-section .container .row .calculator .row, body.pricing .fourth-section .container .row .calculator .row, body.pricing .fifth-section .container .row .calculator .row {
-      padding: 1rem 0; }
-      @media (max-width: 450px) {
-        body.pricing .third-section .container .row .calculator .row, body.pricing .fourth-section .container .row .calculator .row, body.pricing .fifth-section .container .row .calculator .row {
-          padding: 1rem; } }
-      body.pricing .third-section .container .row .calculator .row > :first-child, body.pricing .fourth-section .container .row .calculator .row > :first-child, body.pricing .fifth-section .container .row .calculator .row > :first-child {
-        padding: 0 0.5rem; }
-      body.pricing .third-section .container .row .calculator .row.head, body.pricing .fourth-section .container .row .calculator .row.head, body.pricing .fifth-section .container .row .calculator .row.head {
-        padding-left: 0;
-        background: #5c9bff;
-        color: #fff; }
-      body.pricing .third-section .container .row .calculator .row.body, body.pricing .fourth-section .container .row .calculator .row.body, body.pricing .fifth-section .container .row .calculator .row.body {
-        background: #f9f9f9; }
-        body.pricing .third-section .container .row .calculator .row.body select, body.pricing .third-section .container .row .calculator .row.body input, body.pricing .fourth-section .container .row .calculator .row.body select, body.pricing .fourth-section .container .row .calculator .row.body input, body.pricing .fifth-section .container .row .calculator .row.body select, body.pricing .fifth-section .container .row .calculator .row.body input {
-          outline: none;
-          padding-left: 0.5rem;
-          width: 100%;
-          border-radius: 1rem;
-          height: 2rem; }
-          body.pricing .third-section .container .row .calculator .row.body select option, body.pricing .third-section .container .row .calculator .row.body input option, body.pricing .fourth-section .container .row .calculator .row.body select option, body.pricing .fourth-section .container .row .calculator .row.body input option, body.pricing .fifth-section .container .row .calculator .row.body select option, body.pricing .fifth-section .container .row .calculator .row.body input option {
-            width: 100%;
-            margin: 0;
-            padding: 0; }
-        body.pricing .third-section .container .row .calculator .row.body .input-box, body.pricing .fourth-section .container .row .calculator .row.body .input-box, body.pricing .fifth-section .container .row .calculator .row.body .input-box {
-          padding: 0; }
-          body.pricing .third-section .container .row .calculator .row.body .input-box #hourNumber, body.pricing .fourth-section .container .row .calculator .row.body .input-box #hourNumber, body.pricing .fifth-section .container .row .calculator .row.body .input-box #hourNumber {
-            padding-right: 0.5rem; }
-      body.pricing .third-section .container .row .calculator .row.foot, body.pricing .fourth-section .container .row .calculator .row.foot, body.pricing .fifth-section .container .row .calculator .row.foot {
-        background: #f9f9f9;
-        border-top: 1px solid #eee; }
-  body.pricing .sixth-section {
-    background: #ebf1f9; }
-    body.pricing .sixth-section .container .row.compareForm .header {
-      color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-top-left-radius: 20px;
-      border-top-right-radius: 20px; }
-      body.pricing .sixth-section .container .row.compareForm .header.bigText {
-        font-size: 2rem;
-        padding: 1rem 0; }
-        @media (max-width: 480px) {
-          body.pricing .sixth-section .container .row.compareForm .header.bigText {
-            font-size: 1.2rem; } }
-      body.pricing .sixth-section .container .row.compareForm .header.middleBlue {
-        padding: 0; }
-        body.pricing .sixth-section .container .row.compareForm .header.middleBlue .inner {
-          border-top-left-radius: 20px;
-          border-top-right-radius: 20px;
-          background: #5c9bff;
-          width: 100%;
-          padding: 1rem 0;
-          position: absolute;
-          bottom: 0; }
-      body.pricing .sixth-section .container .row.compareForm .header.darkBlue {
-        background: #0041c4; }
-      body.pricing .sixth-section .container .row.compareForm .header.lightGrey {
-        background: #a9a9a9; }
-      body.pricing .sixth-section .container .row.compareForm .header.darkGrey {
-        background: #696969; }
-    body.pricing .sixth-section .container .row.compareForm .body {
-      padding: 2rem 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #fff; }
-      body.pricing .sixth-section .container .row.compareForm .body.left {
-        border-left: 2px solid #a9a9a9; }
-      body.pricing .sixth-section .container .row.compareForm .body.right {
-        border-right: 2px solid #a9a9a9; }
-      body.pricing .sixth-section .container .row.compareForm .body.top {
-        border-top: 2px solid #a9a9a9; }
-      body.pricing .sixth-section .container .row.compareForm .body.bottom {
-        border-bottom: 2px solid #a9a9a9; }
-      body.pricing .sixth-section .container .row.compareForm .body i {
-        font-size: 3rem; }
-        body.pricing .sixth-section .container .row.compareForm .body i.fa-check {
-          color: green; }
-        body.pricing .sixth-section .container .row.compareForm .body i.fa-times {
-          color: red; }
-      body.pricing .sixth-section .container .row.compareForm .body.last {
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px; }
-  body.pricing .seventh-section .container .row .pricing-box .image img {
-    width: 50%; }
-  body.pricing .eighth-section {
-    background: url(../../_include/imgs/version1.5/Home/Wave02.png) no-repeat;
-    background-size: 100% 100%;
-    color: #1d1d1d; }
-  body.contact .second-section .container {
-    padding: 5rem 0; }
-    body.contact .second-section .container form .row .form-group {
-      padding: 0.5rem 1rem 0 0;
-      margin-bottom: 0.5rem;
-      display: flex;
-      justify-content: space-between; }
-      @media (max-width: 479px) {
-        body.contact .second-section .container form .row .form-group {
-          padding: 0.5rem 0 0 0; } }
-      body.contact .second-section .container form .row .form-group.email, body.contact .second-section .container form .row .form-group.help {
-        width: 100%; }
-      body.contact .second-section .container form .row .form-group label {
-        width: 30%;
-        font-size: 1rem;
-        font-family: light;
-        font-weight: 600;
-        white-space: nowrap;
-        margin-left: 1rem;
-        position: relative;
-        top: 0.2rem; }
-        body.contact .second-section .container form .row .form-group label.email, body.contact .second-section .container form .row .form-group label.help {
-          width: 18%; }
-      body.contact .second-section .container form .row .form-group .input {
-        display: flex;
-        flex-direction: column;
-        width: 100%; }
-        body.contact .second-section .container form .row .form-group .input.email, body.contact .second-section .container form .row .form-group .input.help {
-          width: 100%; }
-        body.contact .second-section .container form .row .form-group .input .form-control {
-          padding: 0.25rem 0.5rem; }
-        body.contact .second-section .container form .row .form-group .input input, body.contact .second-section .container form .row .form-group .input select, body.contact .second-section .container form .row .form-group .input textarea {
-          width: 100%;
-          border-radius: 0.5rem;
-          resize: none;
-          color: #afafaf;
-          /* WebKit browsers */
-          /* Mozilla Firefox 4 to 18 */
-          /* Mozilla Firefox 19+ */
-          /* Internet Explorer 10+ */ }
-          body.contact .second-section .container form .row .form-group .input input::-webkit-input-placeholder, body.contact .second-section .container form .row .form-group .input select::-webkit-input-placeholder, body.contact .second-section .container form .row .form-group .input textarea::-webkit-input-placeholder {
-            color: #afafaf; }
-          body.contact .second-section .container form .row .form-group .input input:-moz-placeholder, body.contact .second-section .container form .row .form-group .input select:-moz-placeholder, body.contact .second-section .container form .row .form-group .input textarea:-moz-placeholder {
-            color: #afafaf; }
-          body.contact .second-section .container form .row .form-group .input input::-moz-placeholder, body.contact .second-section .container form .row .form-group .input select::-moz-placeholder, body.contact .second-section .container form .row .form-group .input textarea::-moz-placeholder {
-            color: #afafaf; }
-          body.contact .second-section .container form .row .form-group .input input:-ms-input-placeholder, body.contact .second-section .container form .row .form-group .input select:-ms-input-placeholder, body.contact .second-section .container form .row .form-group .input textarea:-ms-input-placeholder {
-            color: #afafaf; }
-          body.contact .second-section .container form .row .form-group .input input option, body.contact .second-section .container form .row .form-group .input select option, body.contact .second-section .container form .row .form-group .input textarea option {
-            width: 100%; }
-          body.contact .second-section .container form .row .form-group .input input::placeholder, body.contact .second-section .container form .row .form-group .input select::placeholder, body.contact .second-section .container form .row .form-group .input textarea::placeholder {
-            color: #afafaf; }
-        body.contact .second-section .container form .row .form-group .input input, body.contact .second-section .container form .row .form-group .input select {
-          height: 50px;
-          line-height: 49px; }
-        body.contact .second-section .container form .row .form-group .input .warning {
-          color: red;
-          font-size: 0.9rem;
-          display: none; }
-      @media (min-width: 480px) {
-        body.contact .second-section .container form .row .form-group.right {
-          padding-right: 0; } }
-  body.contact #successBox, body.contact #errorBox {
-    position: fixed;
-    _position: absolute;
-    top: 40%;
-    left: 50%;
-    margin: -100px 0 0 -225px;
-    background: white;
-    padding: 0 0 2rem;
-    border-radius: 7px;
-    z-index: 10000;
-    display: none; }
-    body.contact #successBox .row1, body.contact #errorBox .row1 {
-      height: 50px; }
-      body.contact #successBox .row1 a, body.contact #errorBox .row1 a {
-        float: right;
-        margin: 0.5rem 1rem;
-        font-size: 1.3rem; }
-    body.contact #successBox .context, body.contact #errorBox .context {
-      padding: 1rem 5rem;
-      font-size: 1.2rem; }
-      body.contact #successBox .context > p, body.contact #errorBox .context > p {
-        text-align: center;
-        margin-bottom: 0.5rem; }
-    body.contact #successBox .row3 button, body.contact #errorBox .row3 button {
-      display: block;
-      font-size: 1.2rem;
-      padding: 0.5rem 2rem;
-      background-color: #5c9bff;
-      margin: 1rem auto 0;
-      border: 0; }
-    @media (max-width: 480px) {
-      body.contact #successBox, body.contact #errorBox {
-        margin: -96px 0 0 -170px;
-        height: 208px;
-        width: 340px;
-        padding: 0 0 1rem; }
-        body.contact #successBox .row1, body.contact #errorBox .row1 {
-          height: 40px; }
-          body.contact #successBox .row1 a, body.contact #errorBox .row1 a {
-            font-size: 1rem; }
-        body.contact #successBox .context, body.contact #errorBox .context {
-          padding: 0.5rem 3rem;
-          font-size: 1rem; }
-        body.contact #successBox .row3 button, body.contact #errorBox .row3 button {
-          font-size: 1rem;
-          margin: 0 auto;
-          padding: 0.5rem 1.5rem; } }
-    @media (max-width: 350px) {
-      body.contact #successBox, body.contact #errorBox {
-        margin: -86px 0 0 -142px;
-        width: 284px;
-        height: 186px; }
-        body.contact #successBox .row1, body.contact #errorBox .row1 {
-          height: 30px; }
-          body.contact #successBox .row1 a, body.contact #errorBox .row1 a {
-            font-size: 0.9rem; }
-        body.contact #successBox .context, body.contact #errorBox .context {
-          font-size: 0.9rem;
-          padding: 0.5rem 2rem; }
-        body.contact #successBox .row3 button, body.contact #errorBox .row3 button {
-          font-size: 0.9rem; } }
-  body.contact .mask {
-    margin: 0;
-    padding: 0;
-    border: none;
-    width: 100%;
-    height: 100%;
-    background: #333;
-    opacity: 0.6;
-    filter: alpha(opacity=60);
-    z-index: 9999;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: none; }
-  body.devops .section {
-    padding-top: 2rem; }
-  body.devops .first_section .container {
-    padding-top: 3rem; }
-    body.devops .first_section .container h1 {
-      padding-bottom: 1rem; }
-    body.devops .first_section .container p {
-      padding-bottom: 1rem; }
-      body.devops .first_section .container p.bigSize {
-        font-size: 1.2rem;
-        border-left: 4px solid #5c9bff;
-        padding-left: 1rem; }
-  body.devops .third_section .container {
-    padding-top: 3rem; }
-    body.devops .third_section .container h3 {
-      padding-bottom: 2rem; }
-    body.devops .third_section .container .row .card {
-      border: 0;
-      padding: 0 1.8rem; }
-      body.devops .third_section .container .row .card .card-body {
-        background: linear-gradient(to bottom right, #0041c4, #5c9bff);
-        padding: 1.5rem 1rem; }
-  body.devops .forth_section .container, body.devops .sixth_section .container {
-    padding-bottom: 3rem; }
-    body.devops .forth_section .container p.bigSize, body.devops .sixth_section .container p.bigSize {
-      border-left: 4px solid #5c9bff;
-      padding-left: 1rem;
-      width: 90%;
-      margin: 2rem auto; }
-    body.devops .forth_section .container .image img, body.devops .sixth_section .container .image img {
-      width: 100%; }
-  body.devops .sixth_section .container h2 {
-    padding-bottom: 1rem; }
-  body.devops .sixth_section .container h3 {
-    padding-top: 2rem; }
-  body.server table .whitebg {
-    background-color: #fff; }
-  body.server table tbody {
-    background: linear-gradient(to right, #0041c4, #5c9bff); }
-  body.server .btnP {
-    margin: 0 auto;
-    border: 2px solid #fff;
-    box-sizing: border-box; }
-  body.server .third_section h2 {
-    padding-bottom: 3rem; }
-  body.server .third_section .btnP {
-    background: none;
-    border: 2px solid #5c9bff;
-    margin: 1rem 0 2rem; }
-  body.vps .third_section .container .row .card .card-body {
-    background: transparent;
-    border: 1px solid #5c9bff; }
-    body.vps .third_section .container .row .card .card-body .btnP {
-      margin: 1.5rem auto; }
-  body.vps .forth_section h2 {
-    padding-bottom: 3rem; }
-  body.vps .forth_section .btnP {
-    background: none;
-    border: 2px solid #5c9bff;
-    margin: 1rem 0 2rem; }
-  body.about .first_section, body.about .second_section {
-    padding-top: 4rem; }
-    body.about .first_section .container h2, body.about .second_section .container h2 {
-      padding-bottom: 1rem; }
-  body.about .second_section {
-    padding-bottom: 3rem; }
-    body.about .second_section .container h5 {
-      padding-bottom: 2rem; }
-    body.about .second_section .container .row .image {
-      padding-bottom: 1rem; }
-      body.about .second_section .container .row .image img {
-        width: 100%; }
-  body.about .third_section {
-    background: linear-gradient(to bottom, #0041c4, #5c9bff);
-    padding-bottom: 2rem; }
-    body.about .third_section.forth {
-      background: transparent; }
-    body.about .third_section .container.narrow {
-      width: 80%;
-      margin: 0 auto; }
-      body.about .third_section .container.narrow h4 {
-        padding-bottom: 2rem; }
-      body.about .third_section .container.narrow p {
-        font-family: -webkit-pictograph, serif, sans-serif;
-        font-size: 1.3rem; }
-    @media (max-width: 1023px) {
-      body.about .third_section .container {
-        padding-top: 1rem; } }
-  body.about .forth_section h2 {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem; }
-  body.blockchain .first_section {
-    padding-top: 0; }
-    body.blockchain .first_section > .backbg {
-      background: linear-gradient(to bottom, #0041c4, #5c9bff);
-      padding: 6rem 5rem; }
-    body.blockchain .first_section .container .row .card {
-      border: 0;
-      padding: 1rem; }
-      body.blockchain .first_section .container .row .card .card-body {
-        border: 1px solid #5c9bff;
-        padding-bottom: 2rem; }
-        body.blockchain .first_section .container .row .card .card-body .card-title {
-          margin: 1.5rem 0; }
-          body.blockchain .first_section .container .row .card .card-body .card-title .image {
-            padding: 0; }
-            body.blockchain .first_section .container .row .card .card-body .card-title .image img {
-              width: 100%; }
-        body.blockchain .first_section .container .row .card .card-body .card-text {
-          padding-bottom: 0; }
-          body.blockchain .first_section .container .row .card .card-body .card-text.purpleText {
-            margin-bottom: 0; }
-    body.blockchain .first_section .container .row.btn {
-      padding-left: 1rem; }
-  body.comingsoon .contents {
-    padding-top: 20vh;
-    padding-left: 15%;
-    height: 70vh;
-    font-size: 1.5rem; }
-  body.policy .contents, body.terms .contents {
-    padding-top: 15vh;
-    padding-left: 10%;
-    padding-right: 10%;
-    width: 100%; }
-    body.policy .contents a:hover, body.terms .contents a:hover {
-      text-decoration: underline; }
-    body.policy .contents .title h4, body.terms .contents .title h4 {
-      margin-top: 2rem; }
-    body.policy .contents .title p, body.terms .contents .title p {
-      color: #898989; }
-    body.policy .contents .content, body.terms .contents .content {
-      margin-top: 0.5rem;
-      font-size: 0.9rem;
-      color: #464646; }
+
+
+
 
 .moveUp {
   -webkit-animation-name: moveUp;
   /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 1s;
+  /* -webkit-animation-duration: 1s; */
   /* Safari 4.0 - 8.0 */
-  animation-name: moveUp;
+  /* animation-name: moveUp;
   animation-duration: 1s;
-  animation-fill-mode: forwards; }
+  animation-fill-mode: forwards; } */
 
 /* Safari 4.0 - 8.0 */
-@-webkit-keyframes moveUp {
+/* @-webkit-keyframes moveUp {
   from {
     opacity: 0; }
   to {
     opacity: 1; } }
 
 /* Standard syntax */
-@keyframes moveUp {
+/* @keyframes moveUp {
   from {
     opacity: 0; }
   to {
-    opacity: 1; } }
+    opacity: 1; } }  */
 
 footer {
   background: linear-gradient(to top, #0041c4, #5c9bff);
@@ -11517,4 +11131,4 @@ footer {
         padding-bottom: 0.5rem; }
         footer .container .row .social a img {
           width: 30px;
-          margin-right: 1rem; }
+          margin-right: 1rem; } 
