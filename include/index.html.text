@@ -62,7 +62,7 @@
 <!--End Head-->
 <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Mike</a>
+        <a class="navbar-brand" href="./404.html">Mike</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDefault"
             aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -71,33 +71,33 @@
         <div class="collapse navbar-collapse" id="navbarDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle" href="./404.html" id="dropdown01" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">Portfolio</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#">Working Experience</a>
-                        <a class="dropdown-item" href="#">Education</a>
+                        <a class="dropdown-item" href="./404.html">Working Experience</a>
+                        <a class="dropdown-item" href="./404.html">Education</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle" href="./404.html" id="dropdown01" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">Website</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#">QA</a>
-                        <a class="dropdown-item" href="#">API</a>
-                        <a class="dropdown-item" href="#">Web spider</a>
-                        <a class="dropdown-item" href="#">Devops</a>
-                        <a class="dropdown-item" href="#">Data Analysis</a>
+                        <a class="dropdown-item" href="./404.html">QA</a>
+                        <a class="dropdown-item" href="./404.html">API</a>
+                        <a class="dropdown-item" href="./404.html">Web spider</a>
+                        <a class="dropdown-item" href="./404.html">Devops</a>
+                        <a class="dropdown-item" href="./404.html">Data Analysis</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle" href="./404.html" id="dropdown01" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">Hobby</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#">Sports</a>
-                        <a class="dropdown-item" href="#">Music</a>
-                        <a class="dropdown-item" href="#">Books</a>
-                        <a class="dropdown-item" href="#">Ecnomic news</a>
-                        <a class="dropdown-item" href="#">World News</a>
+                        <a class="dropdown-item" href="./404.html">Sports</a>
+                        <a class="dropdown-item" href="./404.html">Music</a>
+                        <a class="dropdown-item" href="./404.html">Books</a>
+                        <a class="dropdown-item" href="./404.html">Ecnomic news</a>
+                        <a class="dropdown-item" href="./404.html">World News</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -188,7 +188,7 @@
                 <p>This is a template for a simple marketing or informational website. It includes a large callout
                     called a jumbotron and three supporting pieces of content. Use it as a starting point to create
                     something more unique.</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+                <p><a class="btn btn-primary btn-lg" href="./404.html" role="button">Learn more »</a></p>
             </div>
         </div>
 
@@ -200,21 +200,21 @@
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
                         mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
                         magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                    <p><a class="btn btn-secondary" href="./404.html" role="button">View details »</a></p>
                 </div>
                 <div class="col-md-4">
                     <h2>Heading</h2>
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
                         mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
                         magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                    <p><a class="btn btn-secondary" href="./404.html" role="button">View details »</a></p>
                 </div>
                 <div class="col-md-4">
                     <h2>Heading</h2>
                     <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id
                         ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
                         condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+                    <p><a class="btn btn-secondary" href="./404.html" role="button">View details »</a></p>
                 </div>
             </div>
 
