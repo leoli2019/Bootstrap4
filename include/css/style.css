@@ -11124,7 +11124,7 @@ body {
     opacity: 1; } }  */
 
 footer {
-  background: linear-gradient(to top, #414044, #1c19c4);
+  background: linear-gradient(to top, #007bff, #ffffff);
   padding-top: 1rem; }
   footer .footer-copyright{
     color: rgb(255, 255, 255);
