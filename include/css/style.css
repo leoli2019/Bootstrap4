@@ -75,7 +75,14 @@ body {
   background-color: #fff; }
 
 
-  
+  nav #navbarDefault form .btn-outline-success{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol","Noto Color Emoji";
+      color:#c2c2c2;
+      text-transform: uppercase;
+      font-weight: bold;
+
+      
+  } 
   .jumbotron {
     padding:4rem;
     margin-bottom:0rem;
@@ -91,7 +98,7 @@ body {
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
-    background-color:rgba(47, 47, 48, 0.6)!important ;
+    background-color:rgba(0, 0, 0, 0.6)!important ;
   }
   .navbar-brand img{
     
