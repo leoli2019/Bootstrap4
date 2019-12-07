@@ -89,7 +89,7 @@ body {
 
   }
   .jumbotron {
-    padding:4rem;
+    padding:0rem;
     margin-bottom:0rem;
   }
   .webcrwaler{
@@ -147,7 +147,7 @@ body {
     padding: 1rem;
     position:relative;
     
-    bottom:-4rem;
+    bottom:0rem;
     
     
   }
@@ -245,6 +245,41 @@ body {
     }
   } 
 
+
+  .contact main iframe {
+          @media (max-width:768px) {
+            width:30%;
+            height: 30%;
+            
+          }
+  }
+  .contact main .container .row .google-map {
+    @media (max-width:768px) {
+      margin-bottom:1rem;
+      padding-bottom:1rem;
+      
+    }
+}
+  .contact main .container .contact-info {
+    @media (max-width:768px) {
+     margin-top:2rem;
+      
+    }
+  }
+  .contact .jumbotron .container p {
+    background-color: #ffffff;
+    width: 120%;
+    margin-right: 1rem;
+    padding:1rem;
+  }
+  .contact .jumbotron .container{
+    background-color: #ffffff;
+  }
+  .contact .jumbotron .container p .btn-shinning{
+    padding:1rem;
+    bottom: -1.5rem;
+    left:6.5rem;
+  }
 /* end */
 
 
