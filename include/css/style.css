@@ -11210,6 +11210,12 @@ body {
     opacity: 1; } }  */
 
 footer {
+  position: relative;
+  overflow: hidden;
+  padding:0;
+  background:#ffffff;
+  border-top:10px #ffffff;
+  margin:0rem;
   background: linear-gradient(to top, #007bff, #ffffff);
   padding-top: 1rem; }
   footer .footer-copyright{
@@ -11221,6 +11227,7 @@ footer {
     color: rgb(255, 255, 255);
   }
   footer .container {
+    overflow: hidden;
     color: #fff;
     font-size: 2rem; }
 
