@@ -598,6 +598,7 @@ body {
 
   main .container .row h4:hover{
             color:#00f7ff;   
+            font-style: italic;
       }
   
 
