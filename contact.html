@@ -131,86 +131,67 @@
                 </div>
                 <div class="contact-info col-lg-6 col-md-12">
                     <div class="contact-text">
-                        <section class="py-5 bg-image-full" style="background-image: url('./include/img/pikachu.jpg');">
-                            <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
-                            <div style="height: 200px;"></div>
-                        </section>
-                        <div class="form-group">
-                            <label class="control-label col-sm-4" for="name"><span
-                                    class="required">*</span>Name:</label>
-                            <div class="col-sm-10 inputGroupContainer">
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                    <input name="name" type="text" required class="form-control" id="name"
-                                        placeholder="Your full name" title="name">
-                                </div>
+                   
+
+                        <div class="container-contact">
+                            <div class="wrap-contact">
+                                <form class="contact-form validate-form">
+                                    <span class="contact-form-title">
+                                        Get in Touch
+                                    </span>
+
+                                    <div class="wrap-input validate-input" data-validate="Name is required">
+                                        <input class="input" id="name" type="text" name="name" placeholder="Name">
+                                        <label class="label-input" for="name">
+                                            <span class="lnr lnr-user"></span>
+                                        </label>
+                                    </div>
+
+                                    <div class="wrap-input validate-input"
+                                        data-validate="Valid email is required: ex@abc.xyz">
+                                        <input class="input" id="email" type="text" name="email" placeholder="Email">
+                                        <label class="label-input" for="email">
+                                            <span class="lnr lnr-envelope"></span>
+                                        </label>
+                                    </div>
+
+                                    <div class="wrap-input validate-input" data-validate="Phone is required">
+                                        <input class="input" id="phone" type="text" name="phone" placeholder="Phone">
+                                        <label class="label-input" for="phone">
+                                            <span class="lnr lnr-phone-handset"></span>
+                                        </label>
+                                    </div>
+
+                                    <div class="wrap-input validate-input" data-validate="Message is required">
+                                        <textarea class="input" name="message"
+                                            placeholder="Your message..."></textarea>
+                                    </div>
+
+                                    <div class="contact-form-checkbox">
+                                        <input class="input-checkbox" id="ckb1" type="checkbox" name="copy-mail">
+                                        <label class="label-checkbox" for="ckb1">
+                                            Send copy to my-email
+                                        </label>
+                                    </div>
+
+                                    <div class="jumbotron form-group">
+                                        <div class="container">
+
+                                            <p><a class="btn-shinning btn btn-primary btn-lg" href="./contact.html"
+                                                    role="button">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                    Send message »</a></p>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
 
-                        <!--Email Address-->
 
-                        <div class="form-group">
-                            <label class="control-label col-sm-4" for="Email"><span class="required">*</span>Email
-                                Address:</label>
-                            <div class="col-sm-10 inputGroupContainer">
-                                <div class="input-group"> <span class="input-group-addon"><i
-                                            class="glyphicon glyphicon-envelope"></i></span>
-                                    <input name="Email" type="email" required class="form-control" id="email"
-                                        placeholder="your@email.com.au" title="Email">
-                                </div>
-                            </div>
-                        </div>
 
-                        <!--Phone Optional-->
-                        <div class="form-group">
-                            <label class="control-label col-sm-4" for="Phone">Phone #:</label>
-                            <div class="col-sm-10 inputGroupContainer">
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-                                    <input name="Phone" type="email" class="form-control" id="phone"
-                                        placeholder="Optional" title="Phone no."></span>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Text Area-->
-                        <div class="form-group">
-                            <label class="control-label col-sm-4" for="message"><span
-                                    class="required">*</span>Message:</label>
-                            <div class="col-sm-10 inputGroupContainer">
-                                <div class="input-group">
-                                    <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-
-                                    <textarea class="form-control" name="message" rows="4"
-                                        placeholder="Type your message here."></textarea>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Human validation-->
-                        <div class="form-group">
-                            <label for="human" class="col-sm-4 control-label"><span class="required">*</span> Human
-                                Test:</label>
-                            <div class="col-sm-10 inputGroupContainer">
-                                <h3 class="human">6 + 6 = ?</h3>
-                                <input type="text" class="form-control" id="human" name="human"
-                                    placeholder="Your Answer">
-                                <span class="required small"></span>
-                            </div>
-                        </div>
-
-                        <!--SEND Button-->
-
-                        <div class="jumbotron form-group">
-                            <div class="container">
-
-                                <p><a class="btn-shinning btn btn-primary btn-lg" href="./contact.html" role="button">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                        Send message »</a></p>
-                            </div>
-                        </div>
 
 
                         </form>
@@ -222,7 +203,7 @@
 
             <hr>
 
-        </div> <!-- /container -->
+        </div>
 
     </main>
 
@@ -232,32 +213,32 @@
     <footer class="page-footer font-small special-color-dark pt-4 ">
 
         <!-- Footer Elements -->
-        <div class="container">
+        <div class="container text-center">
 
             <!-- Social buttons -->
             <ul class="list-unstyled list-inline text-center">
-                <li class="list-inline-item">
-                    <a class="btn-floating btn-fb mx-1" href="https://www.facebook.com/hongyan.li.37">
+                <li class="list-inline-item text-center">
+                    <a class="medi-icon btn-floating btn-fb mx-1" href="https://www.facebook.com/hongyan.li.37">
                         <i class="fab fa-facebook-f"> </i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="btn-floating btn-tw mx-1" href="https://twitter.com/mikesiwer">
+                    <a class=" medi-icon btn-floating btn-tw mx-1" href="https://twitter.com/mikesiwer">
                         <i class="fab fa-twitter"> </i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="btn-floating btn-gplus" mx-1 href="https://medium.com/me/stories/public">
+                    <a class="medi-icon btn-floating btn-gplus" mx-1 href="https://medium.com/me/stories/public">
                         <i class="fab fa-medium"> </i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/in/mike-li-a8b86a188/">
+                    <a class="medi-icon btn-floating btn-li mx-1" href="https://www.linkedin.com/in/mike-li-a8b86a188/">
                         <i class="fab fa-linkedin-in"> </i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="btn-floating btn-dribbble mx-1" href="https://www.instagram.com/mikelee2006/">
+                    <a class="medi-icon btn-floating btn-dribbble mx-1" href="https://www.instagram.com/mikelee2006/">
                         <i class="fab fa-instagram"> </i>
                     </a>
                 </li>
